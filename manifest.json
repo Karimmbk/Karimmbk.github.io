@@ -1,0 +1,7 @@
+{
+  "name": "Karimmbk",
+  "short_name": "Karimmbk",
+  "description": "my website",
+  "start_url": "/",
+  "display": "standalone"
+}

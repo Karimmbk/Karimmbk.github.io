@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>Karimmbk-app test</title>
+
+    <script src="../../../webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="../../../web-component-tester/browser.js"></script>
+
+    <link rel="import" href="../../src/Karimmbk-app/Karimmbk-app.html">
+  </head>
+  <body>
+    <test-fixture id="basic">
+      <template>
+        <Karimmbk-app></Karimmbk-app>
+      </template>
+    </test-fixture>
+
+    <script>
+      suite('Karimmbk-app', function() {
+        test('instantiating the element works', function() {
+          var element = fixture('basic');
+          assert.equal(element.is, 'Karimmbk-app');
+        });
+      });
+    </script>
+  </body>
+</html>
